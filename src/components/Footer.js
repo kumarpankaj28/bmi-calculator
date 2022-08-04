@@ -2,7 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div class="footer">Built by <a href="https://github.com/ipankajkr" target="_blank" className="strong">Pankaj Kumar</a>.</div>
+    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+    <div class="footer">Built by <a href="#" target="_blank" className="strong">Pankaj Kumar</a>.</div>
   )
 }
 
